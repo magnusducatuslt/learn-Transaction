@@ -155,3 +155,4 @@ COMMIT;
 - [Документация](https://postgrespro.ru/docs/postgrespro/10/tutorial-transactions)
 
 - [Sequelize](https://sequelize.org/master/manual/transactions.html)
+- [youtube](https://www.youtube.com/watch?v=4EajrPgJAk0&ab_channel=TECHSCHOOL)
