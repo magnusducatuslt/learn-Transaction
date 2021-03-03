@@ -136,9 +136,9 @@ con2: удалить любую запись
 ### ДРУГИЕ ТРАНЗАКЦИИ:
 
 - READ: видет только те записи их состояние которое было прочитано до начала транзакци
-- UPDATE: если попытаться провести, выдаст ошибку ERROR: current transaction is aborted, commands ignored until end of transaction block
-- CREATE: если попытаться провести, выдаст ошибку ERROR: current transaction is aborted, commands ignored until end of transaction block
-- DELETE: если попытаться провести, выдаст ошибку ERROR: current transaction is aborted, commands ignored until end of transaction block
+- UPDATE: если попытаться провести, выдаст ошибку ERROR:  could not serialize access due to concurrent update
+- CREATE: если попытаться провести, выдаст ошибку ERROR:  could not serialize access due to concurrent update
+- DELETE: если попытаться провести, выдаст ошибку ERROR:  could not serialize access due to concurrent update
 
 ```sql
 BEGIN TRANSACTION ISOLATION LEVEL SERIALIZABLE;
